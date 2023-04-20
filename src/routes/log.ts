@@ -14,3 +14,5 @@ router.post("/update/:idLog", updateLog); //Update that log
 
 //--------DELETE-----------
 router.delete("/delete/:idLog", deleteLog); //Remove that log
+
+export {router};
