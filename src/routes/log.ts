@@ -4,7 +4,7 @@ import { getLog, getLogs, addLog, addUser, updateLog, deleteLog } from "../contr
 const router = Router();
 
 //---------GET-------------
-router.get("get/all", getLogs); //Get all the logs
+router.get("/get/all", getLogs); //Get all the logs
 router.get("/get/:idLog", getLog); //get just that log
 
 //--------POST-------------

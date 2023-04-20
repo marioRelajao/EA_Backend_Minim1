@@ -8,7 +8,7 @@ const getLogs = async(req:Request, res:Response) => {
         const response = await get_Logs();
         res.send(response);
     } catch(e){
-        handleHttp(res, "ERROR_GET_USERS");
+        handleHttp(res, "ERROR_GET_LOGS");
     }
 };
 
